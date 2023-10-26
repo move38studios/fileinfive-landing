@@ -121,7 +121,7 @@ header {
 }
 
 .qrcode {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 /* Footer Styles */
@@ -141,6 +141,9 @@ footer {
 @media screen and (max-width: 768px) {
     .feature {
         flex-basis: 100%;
+    }
+    .qrcode {
+        max-width: 100%;
     }
     #bottom-images img {
         display: none;
